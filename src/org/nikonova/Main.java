@@ -2,8 +2,8 @@ package org.nikonova;
 
 public class Main {
  public static void main (String [] args) {
-	 System.out.print("Hello ");
-	 System.out.println("World!");
+	 MyService service = new MyService();
+	 service.print("Hello World!");
 	 
  }
 }
